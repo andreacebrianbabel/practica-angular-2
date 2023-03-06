@@ -1,9 +1,9 @@
-import { KanbanComponent } from './kanban-dashboard/kanban/kanban.component';
+import { DashboardComponent } from './dashboard/components/dashboard/dashboard.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', component: KanbanComponent }
+  { path: 'dashboard', component: DashboardComponent  }
 ];
 
 @NgModule({
