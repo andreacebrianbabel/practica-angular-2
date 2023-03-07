@@ -16,5 +16,9 @@ export class LoginComponent {
 
   login() {
     console.log(this.loginForm.value)
+
+    localStorage.setItem('usuario', JSON.stringify(this.loginForm.value));
+
   }
+
 }
