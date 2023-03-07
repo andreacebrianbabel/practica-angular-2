@@ -1,12 +1,10 @@
 <div>
     <form class="form-horizontal" autocomplete="off" [formGroup]="loginForm" (ngSubmit)="login()" id="loginform">
-
         <div class="form-group">
             <label for="exampleInputEmail1"></label>
             <input class="form-input" type="email" placeholder="Email" formControlName="email">
         </div>
-
-        <button mat-raised-button color="accent" type="submit">Iniciar sesión</button>
-
+        <button mat-raised-button color="accent" type="submit">Buscar usuario</button>
+        <button mat-raised-button color="accent" routerLink='/results'>Ver resultados</button>
     </form>
 </div>

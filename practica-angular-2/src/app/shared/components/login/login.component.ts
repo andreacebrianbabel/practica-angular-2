@@ -15,10 +15,7 @@ export class LoginComponent {
   constructor(private fb: FormBuilder) {}
 
   login() {
-    console.log(this.loginForm.value)
-
     localStorage.setItem('usuario', JSON.stringify(this.loginForm.value));
-
   }
 
 }
