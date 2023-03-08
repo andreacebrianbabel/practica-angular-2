@@ -1,0 +1,47 @@
+::ng-deep .mat-mdc-card {
+    background-color: #F0EEED !important;
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mat-mdc-progress-bar {
+    --mdc-linear-progress-active-indicator-color: #FE97C8;
+}
+
+.login__btn {
+    background-color: #FE97C8 !important;
+    margin-right: 8px;
+    width: 40%;
+}
+
+::ng-deep .login__btn__distribution {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly !important;
+}
+
+.form__input {
+    border-radius: 15px;
+    height: 35px;
+    border-color: #FBCEC9;
+}
+
+::ng-deep .form__input :focus-visible {
+    outline: #FBCEC9 !important;
+}
+
+.form__login__distribution {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.card__size {
+    display: flex;
+    align-items: center;
+}

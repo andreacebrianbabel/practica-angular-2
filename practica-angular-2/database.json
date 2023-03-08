@@ -1,0 +1,207 @@
+{
+    "users": [
+        {
+            "email": "marta@gmail.com",
+            "name": "Marta",
+            "country": "España",
+            "autonomous-community": "Andalucía",
+            "birth-month": "Julio",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "pablo@gmail.com",
+            "name": "Pablo",
+            "country": "España",
+            "autonomous-community": "Comunidad de Madrid",
+            "birth-month": "Noviembre",
+            "housing-type": "Piso compartido"
+        },
+        {
+            "email": "laura@gmail.com",
+            "name": "Laura",
+            "country": "España",
+            "autonomous-community": "Castilla y León",
+            "birth-month": "Marzo",
+            "housing-type": "Casa"
+        },
+        {
+            "email": "victor@gmail.com",
+            "name": "Víctor",
+            "country": "España",
+            "autonomous-community": "Comunitat Valenciana",
+            "birth-month": "Octubre",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "julia@gmail.com",
+            "name": "Julia",
+            "country": "España",
+            "autonomous-community": "Castilla-La Mancha",
+            "birth-month": "Julio",
+            "housing-type": "Piso compartido"
+        },
+        {
+            "email": "iker@gmail.com",
+            "name": "Iker",
+            "country": "España",
+            "autonomous-community": "País Vasco",
+            "birth-month": "Octubre",
+            "housing-type": "Casa"
+        },
+        {
+            "email": "sara@gmail.com",
+            "name": "Sara",
+            "country": "España",
+            "autonomous-community": "Aragón",
+            "birth-month": "Mayo",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "mario@gmail.com",
+            "name": "Mario",
+            "country": "España",
+            "autonomous-community": "Principado de Asturias",
+            "birth-month": "Septiembre",
+            "housing-type": "Piso compartido"
+        },
+        {
+            "email": "tania@gmail.com",
+            "name": "Tania",
+            "country": "España",
+            "autonomous-community": "Illes Balears",
+            "birth-month": "Febrero",
+            "housing-type": "Casa"
+        },
+        {
+            "email": "joan@gmail.com",
+            "name": "Joan",
+            "country": "España",
+            "autonomous-community": "Cataluña",
+            "birth-month": "Enero",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "paola@gmail.com",
+            "name": "Paola",
+            "country": "España",
+            "autonomous-community": "Canarias",
+            "birth-month": "Abril",
+            "housing-type": "Piso compartido"
+        },
+        {
+            "email": "mikel@gmail.com",
+            "name": "Mikel",
+            "country": "España",
+            "autonomous-community": "Cantabria",
+            "birth-month": "Junio",
+            "housing-type": "Casa"
+        },
+        {
+            "email": "maria@gmail.com",
+            "name": "María",
+            "country": "España",
+            "autonomous-community": "Extremadura",
+            "birth-month": "Agosto",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "beltran@gmail.com",
+            "name": "Beltrán",
+            "country": "España",
+            "autonomous-community": "Galicia",
+            "birth-month": "Octubre",
+            "housing-type": "Piso compartido"
+        },
+        {
+            "email": "diana@gmail.com",
+            "name": "Diana",
+            "country": "España",
+            "autonomous-community": "Región de Murcia",
+            "birth-month": "Enero",
+            "housing-type": "Casa"
+        },
+        {
+            "email": "hector@gmail.com",
+            "name": "Héctor",
+            "country": "España",
+            "autonomous-community": "Comunidad Foral de Navarra",
+            "birth-month": "Abril",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "gema@gmail.com",
+            "name": "Gema",
+            "country": "España",
+            "autonomous-community": "La Rioja",
+            "birth-month": "Abril",
+            "housing-type": "Piso compartido"
+        },
+        {
+            "email": "carlos@gmail.com",
+            "name": "Carlos",
+            "country": "España",
+            "autonomous-community": "Comunidad Autónoma de Ceuta",
+            "birth-month": "Julio",
+            "housing-type": "Casa"
+        },
+        {
+            "email": "rosa@gmail.com",
+            "name": "Rosa",
+            "country": "España",
+            "autonomous-community": "Comunidad Autónoma de Melilla",
+            "birth-month": "Julio",
+            "housing-type": "Apartamento"
+        },
+        {
+            "email": "fabian@gmail.com",
+            "name": "Fabián",
+            "country": "España",
+            "autonomous-community": "Andalucía",
+            "birth-month": "Diciembre",
+            "housing-type": "Piso compartido"
+        }
+    ],
+
+    "autonomous-community": [
+        "Andalucía",
+        "Aragón",
+        "Principado de Asturias",
+        "Illes Balears",
+        "Canarias",
+        "Cantabria",
+        "Castilla y León",
+        "Castilla-La Mancha",
+        "Cataluña",
+        "Comunitat Valenciana",
+        "Extremadura",
+        "Galicia",
+        "Comunidad de Madrid",
+        "Región de Murcia",
+        "Comunidad Foral de Navarra",
+        "País Vasco",
+        "La Rioja",
+        "Ciudad Autónoma de Ceuta",
+        "Ciudad Autónoma de Melilla"
+    ],
+    
+    "housing-type": [
+        "Apartamento",
+        "Piso compartido",
+        "Casa"
+    ],
+
+    "birth-month": [
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Diciembre"
+    ]
+}

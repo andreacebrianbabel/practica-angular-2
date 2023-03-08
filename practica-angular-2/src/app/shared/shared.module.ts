@@ -8,10 +8,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatTableModule } from '@angular/material/table';
 import { RouterLink } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatCardModule } from '@angular/material/card';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+
 @NgModule({
   declarations: [
     LoginComponent,
-    TableComponent
+    TableComponent,
+    NavbarComponent
   ],
   imports: [
     CommonModule,
@@ -21,11 +28,16 @@ import { RouterLink } from '@angular/router';
     MatFormFieldModule,
     MatTableModule,
     RouterLink,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatToolbarModule,
+    MatCardModule,
+    MatDividerModule,
+    MatProgressBarModule
   ],
   exports: [
     LoginComponent,
-    TableComponent
+    TableComponent,
+    NavbarComponent
   ]
 })
 export class SharedModule { }

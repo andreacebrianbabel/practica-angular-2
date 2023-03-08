@@ -9,7 +9,7 @@ import { FormBuilder } from "@angular/forms";
 export class LoginComponent {
 
   public loginForm = this.fb.group({
-    email: ['prueba123@gmail.com']
+    email: ['']
   });
 
   constructor(private fb: FormBuilder) {}
@@ -17,5 +17,9 @@ export class LoginComponent {
   login() {
     localStorage.setItem('usuario', JSON.stringify(this.loginForm.value));
   }
+
+  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
+  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
+  originally bred for hunting.`;
 
 }

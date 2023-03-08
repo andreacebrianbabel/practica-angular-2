@@ -1,7 +1,7 @@
 import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DataResultsComponent } from '../data-results/data-results.component';
+import { DataResultsComponent } from './components/data-results/data-results.component';
 import { ResultsRoutingModule } from './results-routing.module';
 
 
