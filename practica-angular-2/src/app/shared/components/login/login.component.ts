@@ -1,25 +1,22 @@
-import { Component } from '@angular/core';
-import { FormBuilder } from "@angular/forms";
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, Validators, FormGroup } from "@angular/forms";
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
 
-  public loginForm = this.fb.group({
-    email: ['']
+  public loginForm: FormGroup = this.fb.group({
+    email: ['', [Validators.required]]
   });
 
   constructor(private fb: FormBuilder) {}
 
+  ngOnInit(){}
+
   login() {
-    localStorage.setItem('usuario', JSON.stringify(this.loginForm.value));
+    localStorage.setItem('usuario', this.loginForm.value.email);
   }
-
-  longText = `The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog
-  from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was
-  originally bred for hunting.`;
-
 }
