@@ -4,204 +4,161 @@
             "email": "marta@gmail.com",
             "name": "Marta",
             "country": "España",
-            "autonomous-community": "Andalucía",
-            "birth-month": "Julio",
-            "housing-type": "Apartamento"
+            "community": "Andalucía",
+            "birth": "Julio",
+            "house": "Apartamento"
         },
         {
             "email": "pablo@gmail.com",
             "name": "Pablo",
             "country": "España",
-            "autonomous-community": "Comunidad de Madrid",
-            "birth-month": "Noviembre",
-            "housing-type": "Piso compartido"
+            "community": "Comunidad de Madrid",
+            "birth": "Noviembre",
+            "house": "Piso compartido"
         },
         {
             "email": "laura@gmail.com",
             "name": "Laura",
             "country": "España",
-            "autonomous-community": "Castilla y León",
-            "birth-month": "Marzo",
-            "housing-type": "Casa"
+            "community": "Castilla y León",
+            "birth": "Marzo",
+            "house": "Casa"
         },
         {
             "email": "victor@gmail.com",
             "name": "Víctor",
             "country": "España",
-            "autonomous-community": "Comunitat Valenciana",
-            "birth-month": "Octubre",
-            "housing-type": "Apartamento"
+            "community": "Comunitat Valenciana",
+            "birth": "Octubre",
+            "house": "Apartamento"
         },
         {
             "email": "julia@gmail.com",
             "name": "Julia",
             "country": "España",
-            "autonomous-community": "Castilla-La Mancha",
-            "birth-month": "Julio",
-            "housing-type": "Piso compartido"
+            "community": "Castilla-La Mancha",
+            "birth": "Julio",
+            "house": "Piso compartido"
         },
         {
             "email": "iker@gmail.com",
             "name": "Iker",
             "country": "España",
-            "autonomous-community": "País Vasco",
-            "birth-month": "Octubre",
-            "housing-type": "Casa"
+            "community": "País Vasco",
+            "birth": "Octubre",
+            "house": "Casa"
         },
         {
             "email": "sara@gmail.com",
             "name": "Sara",
             "country": "España",
-            "autonomous-community": "Aragón",
-            "birth-month": "Mayo",
-            "housing-type": "Apartamento"
+            "community": "Aragón",
+            "birth": "Mayo",
+            "house": "Apartamento"
         },
         {
             "email": "mario@gmail.com",
             "name": "Mario",
             "country": "España",
-            "autonomous-community": "Principado de Asturias",
-            "birth-month": "Septiembre",
-            "housing-type": "Piso compartido"
+            "community": "Principado de Asturias",
+            "birth": "Septiembre",
+            "house": "Piso compartido"
         },
         {
             "email": "tania@gmail.com",
             "name": "Tania",
             "country": "España",
-            "autonomous-community": "Illes Balears",
-            "birth-month": "Febrero",
-            "housing-type": "Casa"
+            "community": "Illes Balears",
+            "birth": "Febrero",
+            "house": "Casa"
         },
         {
             "email": "joan@gmail.com",
             "name": "Joan",
             "country": "España",
-            "autonomous-community": "Cataluña",
-            "birth-month": "Enero",
-            "housing-type": "Apartamento"
+            "community": "Cataluña",
+            "birth": "Enero",
+            "house": "Apartamento"
         },
         {
             "email": "paola@gmail.com",
             "name": "Paola",
             "country": "España",
-            "autonomous-community": "Canarias",
-            "birth-month": "Abril",
-            "housing-type": "Piso compartido"
+            "community": "Canarias",
+            "birth": "Abril",
+            "house": "Piso compartido"
         },
         {
             "email": "mikel@gmail.com",
             "name": "Mikel",
             "country": "España",
-            "autonomous-community": "Cantabria",
-            "birth-month": "Junio",
-            "housing-type": "Casa"
+            "community": "Cantabria",
+            "birth": "Junio",
+            "house": "Casa"
         },
         {
             "email": "maria@gmail.com",
             "name": "María",
             "country": "España",
-            "autonomous-community": "Extremadura",
-            "birth-month": "Agosto",
-            "housing-type": "Apartamento"
+            "community": "Extremadura",
+            "birth": "Agosto",
+            "house": "Apartamento"
         },
         {
             "email": "beltran@gmail.com",
             "name": "Beltrán",
             "country": "España",
-            "autonomous-community": "Galicia",
-            "birth-month": "Octubre",
-            "housing-type": "Piso compartido"
+            "community": "Galicia",
+            "birth": "Octubre",
+            "house": "Piso compartido"
         },
         {
             "email": "diana@gmail.com",
             "name": "Diana",
             "country": "España",
-            "autonomous-community": "Región de Murcia",
-            "birth-month": "Enero",
-            "housing-type": "Casa"
+            "community": "Región de Murcia",
+            "birth": "Enero",
+            "house": "Casa"
         },
         {
             "email": "hector@gmail.com",
             "name": "Héctor",
             "country": "España",
-            "autonomous-community": "Comunidad Foral de Navarra",
-            "birth-month": "Abril",
-            "housing-type": "Apartamento"
+            "community": "Comunidad Foral de Navarra",
+            "birth": "Abril",
+            "house": "Apartamento"
         },
         {
             "email": "gema@gmail.com",
             "name": "Gema",
             "country": "España",
-            "autonomous-community": "La Rioja",
-            "birth-month": "Abril",
-            "housing-type": "Piso compartido"
+            "community": "La Rioja",
+            "birth": "Abril",
+            "house": "Piso compartido"
         },
         {
             "email": "carlos@gmail.com",
             "name": "Carlos",
             "country": "España",
-            "autonomous-community": "Comunidad Autónoma de Ceuta",
-            "birth-month": "Julio",
-            "housing-type": "Casa"
+            "community": "Comunidad Autónoma de Ceuta",
+            "birth": "Julio",
+            "house": "Casa"
         },
         {
             "email": "rosa@gmail.com",
             "name": "Rosa",
             "country": "España",
-            "autonomous-community": "Comunidad Autónoma de Melilla",
-            "birth-month": "Julio",
-            "housing-type": "Apartamento"
+            "community": "Comunidad Autónoma de Melilla",
+            "birth": "Julio",
+            "house": "Apartamento"
         },
         {
             "email": "fabian@gmail.com",
             "name": "Fabián",
             "country": "España",
-            "autonomous-community": "Andalucía",
-            "birth-month": "Diciembre",
-            "housing-type": "Piso compartido"
+            "community": "Andalucía",
+            "birth": "Diciembre",
+            "house": "Piso compartido"
         }
-    ],
-
-    "autonomous-community": [
-        "Andalucía",
-        "Aragón",
-        "Principado de Asturias",
-        "Illes Balears",
-        "Canarias",
-        "Cantabria",
-        "Castilla y León",
-        "Castilla-La Mancha",
-        "Cataluña",
-        "Comunitat Valenciana",
-        "Extremadura",
-        "Galicia",
-        "Comunidad de Madrid",
-        "Región de Murcia",
-        "Comunidad Foral de Navarra",
-        "País Vasco",
-        "La Rioja",
-        "Ciudad Autónoma de Ceuta",
-        "Ciudad Autónoma de Melilla"
-    ],
-    
-    "housing-type": [
-        "Apartamento",
-        "Piso compartido",
-        "Casa"
-    ],
-
-    "birth-month": [
-        "Enero",
-        "Febrero",
-        "Marzo",
-        "Abril",
-        "Mayo",
-        "Junio",
-        "Julio",
-        "Agosto",
-        "Septiembre",
-        "Octubre",
-        "Noviembre",
-        "Diciembre"
     ]
 }

@@ -2,3 +2,16 @@
     background-color: #F0EEED;
     margin-top: 48px;
 }
+
+.filter {
+    background-color: #F0EEED;
+    width: 100%;
+}
+
+.filter__text {
+    color: #FE97C8;
+}
+
+::ng-deep .mdc-text-field--filled .mdc-line-ripple::after {
+    border-bottom-color: #FE97C8;
+}
