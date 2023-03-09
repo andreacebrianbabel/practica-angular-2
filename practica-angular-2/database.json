@@ -1,7 +1,8 @@
 {
     "users": [
         {
-            "email": "marta@gmail.com",
+            "email": "desarrollo@babelgroup.com",
+            "personal": "marta@gmail.com",
             "name": "Marta",
             "country": "España",
             "community": "Andalucía",
@@ -9,7 +10,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "pablo@gmail.com",
+            "email": "desarrollo@babelgroup.com",
+            "personal": "pablo@gmail.com",
             "name": "Pablo",
             "country": "España",
             "community": "Comunidad de Madrid",
@@ -17,7 +19,8 @@
             "house": "Piso compartido"
         },
         {
-            "email": "laura@gmail.com",
+            "email": "desarrollo@babelgroup.com",
+            "personal": "laura@gmail.com",
             "name": "Laura",
             "country": "España",
             "community": "Castilla y León",
@@ -25,7 +28,8 @@
             "house": "Casa"
         },
         {
-            "email": "victor@gmail.com",
+            "email": "desarrollo@babelgroup.com",
+            "personal": "victor@gmail.com",
             "name": "Víctor",
             "country": "España",
             "community": "Comunitat Valenciana",
@@ -33,7 +37,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "julia@gmail.com",
+            "email": "desarrollo@babelgroup.com",
+            "personal": "julia@gmail.com",
             "name": "Julia",
             "country": "España",
             "community": "Castilla-La Mancha",
@@ -41,7 +46,8 @@
             "house": "Piso compartido"
         },
         {
-            "email": "iker@gmail.com",
+            "email": "ux-ui@babelgroup.com",
+            "personal": "iker@gmail.com",
             "name": "Iker",
             "country": "España",
             "community": "País Vasco",
@@ -49,7 +55,8 @@
             "house": "Casa"
         },
         {
-            "email": "sara@gmail.com",
+            "email": "ux-ui@babelgroup.com",
+            "personal": "sara@gmail.com",
             "name": "Sara",
             "country": "España",
             "community": "Aragón",
@@ -57,7 +64,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "mario@gmail.com",
+            "email": "ux-ui@babelgroup.com",
+            "personal": "mario@gmail.com",
             "name": "Mario",
             "country": "España",
             "community": "Principado de Asturias",
@@ -65,7 +73,8 @@
             "house": "Piso compartido"
         },
         {
-            "email": "tania@gmail.com",
+            "email": "ux-ui@babelgroup.com",
+            "personal": "tania@gmail.com",
             "name": "Tania",
             "country": "España",
             "community": "Illes Balears",
@@ -73,7 +82,8 @@
             "house": "Casa"
         },
         {
-            "email": "joan@gmail.com",
+            "email": "ux-ui@babelgroup.com",
+            "personal": "joan@gmail.com",
             "name": "Joan",
             "country": "España",
             "community": "Cataluña",
@@ -81,7 +91,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "paola@gmail.com",
+            "email": "marketing@babelgroup.com",
+            "personal": "paola@gmail.com",
             "name": "Paola",
             "country": "España",
             "community": "Canarias",
@@ -89,7 +100,8 @@
             "house": "Piso compartido"
         },
         {
-            "email": "mikel@gmail.com",
+            "email": "marketing@babelgroup.com",
+            "personal": "mikel@gmail.com",
             "name": "Mikel",
             "country": "España",
             "community": "Cantabria",
@@ -97,7 +109,8 @@
             "house": "Casa"
         },
         {
-            "email": "maria@gmail.com",
+            "email": "marketing@babelgroup.com",
+            "personal": "maria@gmail.com",
             "name": "María",
             "country": "España",
             "community": "Extremadura",
@@ -105,7 +118,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "beltran@gmail.com",
+            "email": "marketing@babelgroup.com",
+            "personal": "beltran@gmail.com",
             "name": "Beltrán",
             "country": "España",
             "community": "Galicia",
@@ -113,7 +127,8 @@
             "house": "Piso compartido"
         },
         {
-            "email": "diana@gmail.com",
+            "email": "marketing@babelgroup.com",
+            "personal": "diana@gmail.com",
             "name": "Diana",
             "country": "España",
             "community": "Región de Murcia",
@@ -121,7 +136,8 @@
             "house": "Casa"
         },
         {
-            "email": "hector@gmail.com",
+            "email": "rrhh@babelgroup.com",
+            "personal": "hector@gmail.com",
             "name": "Héctor",
             "country": "España",
             "community": "Comunidad Foral de Navarra",
@@ -129,7 +145,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "gema@gmail.com",
+            "email": "rrhh@babelgroup.com",
+            "personal": "gema@gmail.com",
             "name": "Gema",
             "country": "España",
             "community": "La Rioja",
@@ -137,7 +154,8 @@
             "house": "Piso compartido"
         },
         {
-            "email": "carlos@gmail.com",
+            "email": "rrhh@babelgroup.com",
+            "personal": "carlos@gmail.com",
             "name": "Carlos",
             "country": "España",
             "community": "Comunidad Autónoma de Ceuta",
@@ -145,7 +163,8 @@
             "house": "Casa"
         },
         {
-            "email": "rosa@gmail.com",
+            "email": "rrhh@babelgroup.com",
+            "personal": "rosa@gmail.com",
             "name": "Rosa",
             "country": "España",
             "community": "Comunidad Autónoma de Melilla",
@@ -153,7 +172,8 @@
             "house": "Apartamento"
         },
         {
-            "email": "fabian@gmail.com",
+            "email": "rrhh@babelgroup.com",
+            "personal": "fabian@gmail.com",
             "name": "Fabián",
             "country": "España",
             "community": "Andalucía",

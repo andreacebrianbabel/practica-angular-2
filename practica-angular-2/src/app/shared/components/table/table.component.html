@@ -1,13 +1,18 @@
 <div class="mat-elevation-z8 table__data">
     <mat-form-field class="filter">
         <mat-label class="filter__text">Filtrar</mat-label>
-        <input matInput (keyup)="applyFilter($event)" placeholder="Ex. octubre" #input class="filer__input">
+        <input matInput (keyup)="applyFilter($event)" placeholder="Ex. octubre" #input class="filter__input">
     </mat-form-field>
 
-    <table mat-table [dataSource]="dataSource">
+    <table mat-table [dataSource]="allUsers">
         <ng-container matColumnDef="email">
             <th mat-header-cell *matHeaderCellDef> Email </th>
             <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="personal">
+            <th mat-header-cell *matHeaderCellDef> Email </th>
+            <td mat-cell *matCellDef="let element"> {{element.personal}} </td>
         </ng-container>
 
         <ng-container matColumnDef="name">
@@ -41,4 +46,8 @@
 
     <mat-paginator [pageSizeOptions]="[5, 10, 20]" showFirstLastButtons aria-label="Select page of data elements">
     </mat-paginator>
+
+    <button mat-raised-button color="accent" routerLink='/dashboard' (click)="deleteInfo()"
+        class="login__btn">Atrás</button>
+
 </div>

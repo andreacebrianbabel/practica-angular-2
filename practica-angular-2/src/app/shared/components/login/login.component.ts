@@ -12,11 +12,18 @@ export class LoginComponent implements OnInit {
     email: ['', [Validators.required]]
   });
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder) { }
 
-  ngOnInit(){}
+  ngOnInit() { }
 
   login() {
-    localStorage.setItem('usuario', this.loginForm.value.email);
+    console.log("input", this.loginForm.value.email)
+  }
+
+  submitForm() {
+    if (typeof (Storage) !== 'undefined')
+      sessionStorage.setItem('usuario', this.loginForm.value.email);
+    else
+      alert('Introduce un email válido');
   }
 }

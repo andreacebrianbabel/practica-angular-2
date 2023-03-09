@@ -4,6 +4,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatTableDataSource } from '@angular/material/table';
 export interface DataElement {
   email: string,
+  personal: string,
   name: string,
   country: string,
   community: string,
@@ -17,8 +18,8 @@ const ELEMENT_DATA: DataElement[] = [];
   templateUrl: './table.component.html',
   styleUrls: ['./table.component.scss']
 })
-export class TableComponent { 
-  displayedColumns: string[] = ['email', 'name', 'country', 'community', 'birth', 'house'];
+export class TableComponent {
+  displayedColumns: string[] = ['email', 'personal', 'name', 'country', 'community', 'birth', 'house'];
 
   constructor(private RestService: RestService) { }
 
@@ -35,17 +36,41 @@ export class TableComponent {
   }
 
   responseData: any;
+  allUsers: DataElement[] = [];
+  specificUser: DataElement[] = [];
+
 
   public chargeTableData() {
     this.RestService.get('http://localhost:3000/users')
       .subscribe(response => {
-         this.responseData = response;
-         this.dataSource.data = this.responseData;
+        this.responseData = response;
+        this.dataSource.data = this.responseData;
+
+        this.allUsers = this.dataSource.data;
+
+        var getUser = sessionStorage.getItem('usuario')
+
+        if (!!this.allUsers) {
+          this.specificUser = this.allUsers.filter(element => element.email === getUser);
+          this.allUsers = this.specificUser;
+        }
       })
   }
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
+
+    console.log("1", this.dataSource)
+    console.log("2", this.allUsers)
+
     this.dataSource.filter = filterValue.trim().toLowerCase();
+
+    console.log("3", this.dataSource)
+
+  }
+
+  deleteInfo() {
+    sessionStorage.removeItem('usuario')
+    sessionStorage.clear();
   }
 }

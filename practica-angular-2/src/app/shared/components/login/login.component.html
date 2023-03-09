@@ -10,13 +10,10 @@
                     <input class="form-input" type="email" placeholder="ejemplo@gmail.com" formControlName="email"
                         class="form__input">
                 </div>
-
+                <button mat-raised-button color="accent" type="submit" routerLink='/results'
+                    class="login__btn" (click)="submitForm()">Buscar</button>
             </form>
         </mat-card-content>
-        <mat-divider inset></mat-divider>
-        <mat-card-actions class="login__btn__distribution">
-            <button mat-raised-button color="accent" routerLink='/results' class="login__btn">Buscar</button>
-        </mat-card-actions>
         <mat-progress-bar mode="indeterminate" class="progres__bar"></mat-progress-bar>
     </mat-card>
 </div>
